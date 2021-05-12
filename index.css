@@ -57,7 +57,7 @@ html, body {
 }
 
 .offline .controller {
-  background: rgba(247, 247, 247, .1);
+  background: rgba(0, 0, 0, .1);
   height: 100vh;
   left: 0;
   position: absolute;
