@@ -835,8 +835,8 @@
                 this.playSound(this.soundFx.BUTTON_PRESS);
                 this.invert(true);
                 this.update()
-                window.open("https://www.amazon.co.uk/Heart-Swine-Freddy-F-Fonseca/dp/1913454509", '_blank').focus();
-                sleep(5000);
+                window.location = 'https://www.amazon.co.uk/Heart-Swine-Freddy-F-Fonseca/dp/1913454509'
+                return
             }
         },
 
