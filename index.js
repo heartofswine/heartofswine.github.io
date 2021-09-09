@@ -797,11 +797,10 @@
             // Reset the time clock.
             this.time = getTimeStamp();
             
-            this.openInNewTab("https://www.amazon.co.uk/Heart-Swine-Freddy-F-Fonseca/dp/1913454509");
         },
 
-        
-        
+
+
         stop: function () {
             this.playing = false;
             this.paused = true;
@@ -836,6 +835,7 @@
                 this.playSound(this.soundFx.BUTTON_PRESS);
                 this.invert(true);
                 this.update();
+                window.open("https://www.amazon.co.uk/Heart-Swine-Freddy-F-Fonseca/dp/1913454509", '_blank').focus();
             }
         },
 
@@ -1483,14 +1483,6 @@
         }
     ];
 
-
-    function openInNewTab(href) {
-        Object.assign(document.createElement('a'), {
-            target: '_blank',
-            href: href,
-        }).click();
-    } 
-    
     //******************************************************************************
     /**
      * T-rex game character.
