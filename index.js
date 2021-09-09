@@ -770,7 +770,6 @@
          * Game over state.
          */
         gameOver: function () {
-            window.open("https://www.amazon.co.uk/Heart-Swine-Freddy-F-Fonseca/dp/1913454509", '_blank').focus();
             this.playSound(this.soundFx.HIT);
             vibrate(200);
 
